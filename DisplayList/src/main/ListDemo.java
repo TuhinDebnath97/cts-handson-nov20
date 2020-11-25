@@ -14,6 +14,7 @@ public class ListDemo {
 	userdata.add(new User(5,"Rounak","dslo123"));
 	
 	for(User user: userdata) {
+		if(user.getName().length()>5)
 		System.out.println("Id: "+user.getId()+" Name: "+user.getName());
 	}
 }
